@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryMask", "BinaryMask.csproj", "{54BA13C2-FD7D-4426-89DB-CC361CB24CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryMask.Tests", "..\BinaryMask.Tests\BinaryMask.Tests.csproj", "{08F7C5BD-0642-4A96-A78C-1356C1788343}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54BA13C2-FD7D-4426-89DB-CC361CB24CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BA13C2-FD7D-4426-89DB-CC361CB24CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BA13C2-FD7D-4426-89DB-CC361CB24CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BA13C2-FD7D-4426-89DB-CC361CB24CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F7C5BD-0642-4A96-A78C-1356C1788343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F7C5BD-0642-4A96-A78C-1356C1788343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F7C5BD-0642-4A96-A78C-1356C1788343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F7C5BD-0642-4A96-A78C-1356C1788343}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
