@@ -69,7 +69,7 @@ namespace BinaryMask
             for (int i = 0; i < srcLength; i++)
             {
                 int srcIndex = srcStartIndex + i;
-                int dstIndex = i / 16;
+                int dstIndex = dstStartIndex + i / 16;
                 int dstBitIndex = i % 16;
 
                 ushort dstBitMask = (ushort)(1 << dstBitIndex);
